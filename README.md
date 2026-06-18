@@ -26,8 +26,11 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 1. Откройте скачанный DMG.
 2. Перетащите `LangRuEn.app` в `Applications`.
-3. Запустите LangRuEn из `Applications`.
-4. Выдайте разрешения Input Monitoring и Accessibility, когда macOS попросит.
+3. Если macOS пишет, что приложение не может быть открыто:
+   - `System Settings -> Privacy & Security -> Open Anyway`
+   - или правый клик по приложению -> `Open`
+4. Запустите LangRuEn из `Applications`.
+5. Выдайте разрешения Input Monitoring и Accessibility, когда macOS попросит.
 
 ## Если macOS ругается
 
@@ -101,7 +104,10 @@ This is a beta build for testing. The app is not signed with an Apple Developer 
 3. Launch LangRuEn from `Applications`.
 4. Grant Input Monitoring and Accessibility permissions when macOS asks.
 
-If macOS refuses to open the app, try Control-clicking `LangRuEn.app` in `Applications`, then choose `Open`.
+If macOS says the app can’t be opened:
+
+- Open `System Settings -> Privacy & Security -> Open Anyway`
+- or Control-click `LangRuEn.app` in `Applications`, then choose `Open`.
 
 If macOS says the app is damaged, run:
 
