@@ -14,6 +14,22 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 [LangRuEn-Beta.dmg](https://github.com/almaziphone/LangRuEnUpdates/releases/download/beta/LangRuEn-Beta.dmg)
 
+> **Если macOS пишет, что DMG или приложение повреждено**
+>
+> Это beta-сборка без Apple notarization. Скачайте DMG из этого репозитория и выполните в Terminal:
+>
+> ```bash
+> xattr -dr com.apple.quarantine ~/Downloads/LangRuEn-Beta.dmg
+> open ~/Downloads/LangRuEn-Beta.dmg
+> ```
+>
+> Если `LangRuEn.app` уже скопирован в `/Applications`:
+>
+> ```bash
+> xattr -dr com.apple.quarantine /Applications/LangRuEn.app
+> open /Applications/LangRuEn.app
+> ```
+
 ## Для тестеров
 
 Дорогие друзья, прошу протестировать LangRuEn.
@@ -92,6 +108,22 @@ It watches typed words, detects when text was entered in the wrong keyboard layo
 Download the latest beta DMG:
 
 [LangRuEn-Beta.dmg](https://github.com/almaziphone/LangRuEnUpdates/releases/download/beta/LangRuEn-Beta.dmg)
+
+> **If macOS says the DMG or app is damaged**
+>
+> This beta build is not Apple-notarized yet. Download the DMG from this repository and run:
+>
+> ```bash
+> xattr -dr com.apple.quarantine ~/Downloads/LangRuEn-Beta.dmg
+> open ~/Downloads/LangRuEn-Beta.dmg
+> ```
+>
+> If `LangRuEn.app` is already copied to `/Applications`:
+>
+> ```bash
+> xattr -dr com.apple.quarantine /Applications/LangRuEn.app
+> open /Applications/LangRuEn.app
+> ```
 
 ### Tester Note
 
