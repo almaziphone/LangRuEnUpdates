@@ -36,7 +36,7 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Это маленькая macOS-утилита в menu bar, которая помогает, когда вы набрали текст не в той раскладке. Например, написали русское слово на английской раскладке или наоборот — программа пытается аккуратно исправить это автоматически. Еще она умеет переключать раскладку в email, URL, login и технических полях.
 
-Для PC-клавиатур можно включить привычное ручное переключение RU/EN через `Ctrl + Shift` или `Alt + Shift`: откройте меню LangRuEn и выберите `Переключение на PC-клавиатуре`. Активным может быть только одно сочетание; по умолчанию оба выключены.
+Для PC-клавиатур можно включить ручное переключение RU/EN: откройте меню LangRuEn и выберите `Переключение на PC-клавиатуре`. Доступны `Ctrl + Shift`, обычный `Alt + Shift` и `Alt + Shift (Mac-режим)` для клавиатур, где физический Alt определяется macOS как Command. Активным может быть только один вариант; по умолчанию все выключены.
 
 Важно: сейчас это beta-версия для теста. Приложение пока не подписано Apple Developer ID, поэтому macOS может предупреждать, что программа скачана из интернета или не может проверить разработчика. Это ожидаемо для текущей тестовой сборки.
 
@@ -81,7 +81,7 @@ open /Applications/LangRuEn.app
 ## Возможности
 
 - Автоматическое исправление раскладки RU/EN.
-- Переключение RU/EN через `Ctrl + Shift` или `Alt + Shift` для PC-клавиатур.
+- Переключение RU/EN через `Ctrl + Shift` или один из режимов `Alt + Shift` для PC-клавиатур.
 - Индикатор текущей раскладки в menu bar.
 - `Esc` отменяет последнее исправление.
 - Пользовательские слова и исключения.
@@ -106,7 +106,7 @@ LangRuEn is a macOS menu bar utility for automatic RU/EN keyboard layout correct
 
 It watches typed words, detects when text was entered in the wrong keyboard layout, corrects it, and helps quickly switch between Russian and English input. The app is designed for Russian-speaking macOS users who often type in both layouts.
 
-PC keyboard users can enable manual RU/EN switching with `Ctrl + Shift` or `Alt + Shift` from the LangRuEn menu under `Переключение на PC-клавиатуре`. Only one shortcut can be active, and both are disabled by default.
+PC keyboard users can enable manual RU/EN switching from the LangRuEn menu under `Переключение на PC-клавиатуре`. Available choices are `Ctrl + Shift`, regular `Alt + Shift`, and `Alt + Shift (Mac-режим)` for keyboards whose physical Alt key is reported by macOS as Command. Only one option can be active, and all are disabled by default.
 
 ### Download
 
@@ -158,7 +158,7 @@ Only do this if you downloaded the DMG from this repository.
 ### Features
 
 - Automatic RU/EN layout correction.
-- Optional `Ctrl + Shift` or `Alt + Shift` RU/EN switching for PC keyboards.
+- Optional `Ctrl + Shift` or Mac-mode-aware `Alt + Shift` RU/EN switching for PC keyboards.
 - Menu bar indicator for the current layout.
 - `Esc` cancels the last correction.
 - Personal words and exclusions.
