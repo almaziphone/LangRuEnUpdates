@@ -36,7 +36,12 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Это маленькая macOS-утилита в menu bar, которая помогает, когда вы набрали текст не в той раскладке. Например, написали русское слово на английской раскладке или наоборот — программа пытается аккуратно исправить это автоматически. Еще она умеет переключать раскладку в email, URL, login и технических полях.
 
-Для PC-клавиатур можно включить ручное переключение RU/EN: откройте меню LangRuEn и выберите `Переключение на PC-клавиатуре`. Доступны `Ctrl + Shift`, обычный `Alt + Shift` и `Alt + Shift (Mac-режим)` для клавиатур, где физический Alt определяется macOS как Command. Активным может быть только один вариант; по умолчанию все выключены.
+Для PC-клавиатур можно включить ручное переключение RU/EN в разделе `Настройки -> Клавиатура и мышь -> Клавиатура`. Доступны `Ctrl + Shift`, обычный `Alt + Shift` и `Alt + Shift (Mac-режим)` для клавиатур, где физический Alt определяется macOS как Command. Активным может быть только один вариант; по умолчанию все выключены.
+
+Раздел `Клавиатура и мышь` также добавляет Windows-подобную прокрутку, настраиваемые скорость,
+ускорение и плавность, переназначение дополнительных кнопок мыши, Windows-сочетания клавиш и
+полные или частичные исключения для выбранных приложений. Все параметры применяются сразу, а
+встроенные тестовые области помогают проверить события колеса, кнопок и клавиатуры.
 
 Важно: сейчас это beta-версия для теста. Приложение пока не подписано Apple Developer ID, поэтому macOS может предупреждать, что программа скачана из интернета или не может проверить разработчика. Это ожидаемо для текущей тестовой сборки.
 
@@ -88,6 +93,11 @@ open /Applications/LangRuEn.app
 - Авто English в email, URL, login и технических полях.
 - История исправлений.
 - Настройки и диагностика в одном окне.
+- Windows-подобное направление, скорость, ускорение и плавность прокрутки.
+- Переназначение дополнительных кнопок мыши и переключение рабочих столов Spaces.
+- Windows-сочетания клавиш для PC-клавиатуры.
+- Полные и частичные исключения по приложениям для прокрутки, мыши и клавиатуры.
+- Живая проверка событий ввода в настройках.
 - Публичный beta update-feed.
 
 ## Обновления
@@ -106,7 +116,12 @@ LangRuEn is a macOS menu bar utility for automatic RU/EN keyboard layout correct
 
 It watches typed words, detects when text was entered in the wrong keyboard layout, corrects it, and helps quickly switch between Russian and English input. The app is designed for Russian-speaking macOS users who often type in both layouts.
 
-PC keyboard users can enable manual RU/EN switching from the LangRuEn menu under `Переключение на PC-клавиатуре`. Available choices are `Ctrl + Shift`, regular `Alt + Shift`, and `Alt + Shift (Mac-режим)` for keyboards whose physical Alt key is reported by macOS as Command. Only one option can be active, and all are disabled by default.
+PC keyboard users can enable manual RU/EN switching under `Settings -> Keyboard and Mouse -> Keyboard`. Available choices are `Ctrl + Shift`, regular `Alt + Shift`, and `Alt + Shift (Mac mode)` for keyboards whose physical Alt key is reported by macOS as Command. Only one option can be active, and all are disabled by default.
+
+The `Keyboard and Mouse` section also provides Windows-style scrolling direction, configurable
+speed, acceleration and smoothing, extra mouse-button remapping, Windows keyboard shortcuts, and
+full or partial per-application exclusions. Settings apply immediately, with live test areas for
+wheel, button and keyboard events.
 
 ### Download
 
@@ -165,4 +180,9 @@ Only do this if you downloaded the DMG from this repository.
 - Auto English for email, URL, login, and technical fields.
 - Correction history.
 - Settings and diagnostics in one window.
+- Windows-style scrolling direction, speed, acceleration, and smoothing.
+- Configurable extra mouse buttons and Space switching.
+- Windows keyboard shortcuts for PC keyboards.
+- Full and partial per-application exclusions for scrolling, mouse buttons, and keyboard mappings.
+- Live input-event testing in Settings.
 - Public beta update feed.
