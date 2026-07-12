@@ -43,6 +43,10 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 полные или частичные исключения для выбранных приложений. Все параметры применяются сразу, а
 встроенные тестовые области помогают проверить события колеса, кнопок и клавиатуры.
 
+Готовый профиль `Как на трекпаде` включает непрерывный жест macOS с фазами движения, инерцией и
+мягким завершением. Новый поворот колеса естественно продолжает или прерывает текущую инерцию;
+продолжительность затухания регулируется отдельно.
+
 Важно: сейчас это beta-версия для теста. Приложение пока не подписано Apple Developer ID, поэтому macOS может предупреждать, что программа скачана из интернета или не может проверить разработчика. Это ожидаемо для текущей тестовой сборки.
 
 ## Установка
@@ -94,6 +98,7 @@ open /Applications/LangRuEn.app
 - История исправлений.
 - Настройки и диагностика в одном окне.
 - Windows-подобное направление, скорость, ускорение и плавность прокрутки.
+- Готовый профиль прокрутки `Как на трекпаде` с фазами жеста и инерционным затуханием.
 - Переназначение дополнительных кнопок мыши и переключение рабочих столов Spaces.
 - Windows-сочетания клавиш для PC-клавиатуры.
 - Полные и частичные исключения по приложениям для прокрутки, мыши и клавиатуры.
@@ -122,6 +127,10 @@ The `Keyboard and Mouse` section also provides Windows-style scrolling direction
 speed, acceleration and smoothing, extra mouse-button remapping, Windows keyboard shortcuts, and
 full or partial per-application exclusions. Settings apply immediately, with live test areas for
 wheel, button and keyboard events.
+
+The ready-made `Trackpad-like` profile emits a continuous macOS gesture with tracking phases,
+momentum and a smooth ending. A new wheel turn naturally continues or interrupts existing momentum,
+and the decay duration remains adjustable.
 
 ### Download
 
@@ -181,6 +190,7 @@ Only do this if you downloaded the DMG from this repository.
 - Correction history.
 - Settings and diagnostics in one window.
 - Windows-style scrolling direction, speed, acceleration, and smoothing.
+- Ready-made trackpad-style scrolling with gesture phases and momentum decay.
 - Configurable extra mouse buttons and Space switching.
 - Windows keyboard shortcuts for PC keyboards.
 - Full and partial per-application exclusions for scrolling, mouse buttons, and keyboard mappings.
