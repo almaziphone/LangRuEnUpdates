@@ -38,14 +38,13 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Для PC-клавиатур можно включить ручное переключение RU/EN в разделе `Настройки -> Клавиатура и мышь -> Клавиатура`. Доступны `Ctrl + Shift`, обычный `Alt + Shift` и `Alt + Shift (Mac-режим)` для клавиатур, где физический Alt определяется macOS как Command. Активным может быть только один вариант; по умолчанию все выключены.
 
-Раздел `Клавиатура и мышь` также добавляет Windows-подобную прокрутку, настраиваемые скорость,
-ускорение и плавность, переназначение дополнительных кнопок мыши, Windows-сочетания клавиш и
-полные или частичные исключения для выбранных приложений. Все параметры применяются сразу, а
-встроенные тестовые области помогают проверить события колеса, кнопок и клавиатуры.
+Раздел `Клавиатура и мышь` также добавляет Windows-подобное направление и плавную прокрутку,
+переназначение дополнительных кнопок мыши, Windows-сочетания клавиш и полные или частичные
+исключения для выбранных приложений. Вертикальная и горизонтальная прокрутка включаются независимо,
+а все параметры применяются сразу.
 
-Готовый профиль `Как на трекпаде` включает непрерывный жест macOS с фазами движения, инерцией и
-мягким завершением. Новый поворот колеса естественно продолжает или прерывает текущую инерцию;
-продолжительность затухания регулируется отдельно.
+Опция `Симулировать трекпад (бета)` включает непрерывный жест macOS с фазами движения, инерцией и
+мягким завершением. Параметры скорости и плавности скрыты и используют проверенные значения Mos.
 
 Важно: сейчас это beta-версия для теста. Приложение пока не подписано Apple Developer ID, поэтому macOS может предупреждать, что программа скачана из интернета или не может проверить разработчика. Это ожидаемо для текущей тестовой сборки.
 
@@ -97,8 +96,8 @@ open /Applications/LangRuEn.app
 - Авто English в email, URL, login и технических полях.
 - История исправлений.
 - Настройки и диагностика в одном окне.
-- Windows-подобное направление, скорость, ускорение и плавность прокрутки.
-- Готовый профиль прокрутки `Как на трекпаде` с фазами жеста и инерционным затуханием.
+- Windows-подобное направление и плавная прокрутка с независимыми настройками осей.
+- Режим `Симулировать трекпад (бета)` с фазами жеста и инерционным затуханием.
 - Переназначение дополнительных кнопок мыши и переключение рабочих столов Spaces.
 - Windows-сочетания клавиш для PC-клавиатуры.
 - Полные и частичные исключения по приложениям для прокрутки, мыши и клавиатуры.
@@ -123,14 +122,13 @@ It watches typed words, detects when text was entered in the wrong keyboard layo
 
 PC keyboard users can enable manual RU/EN switching under `Settings -> Keyboard and Mouse -> Keyboard`. Available choices are `Ctrl + Shift`, regular `Alt + Shift`, and `Alt + Shift (Mac mode)` for keyboards whose physical Alt key is reported by macOS as Command. Only one option can be active, and all are disabled by default.
 
-The `Keyboard and Mouse` section also provides Windows-style scrolling direction, configurable
-speed, acceleration and smoothing, extra mouse-button remapping, Windows keyboard shortcuts, and
-full or partial per-application exclusions. Settings apply immediately, with live test areas for
-wheel, button and keyboard events.
+The `Keyboard and Mouse` section also provides Windows-style direction and smooth scrolling,
+extra mouse-button remapping, Windows keyboard shortcuts, and full or partial per-application
+exclusions. Vertical and horizontal scrolling can be enabled independently, and settings apply
+immediately.
 
-The ready-made `Trackpad-like` profile emits a continuous macOS gesture with tracking phases,
-momentum and a smooth ending. A new wheel turn naturally continues or interrupts existing momentum,
-and the decay duration remains adjustable.
+The `Simulate Trackpad (Beta)` option emits a continuous macOS gesture with tracking phases,
+momentum and a smooth ending. Speed and smoothing internals are hidden and use Mos-tested values.
 
 ### Download
 
@@ -189,8 +187,8 @@ Only do this if you downloaded the DMG from this repository.
 - Auto English for email, URL, login, and technical fields.
 - Correction history.
 - Settings and diagnostics in one window.
-- Windows-style scrolling direction, speed, acceleration, and smoothing.
-- Ready-made trackpad-style scrolling with gesture phases and momentum decay.
+- Windows-style direction and smooth scrolling with independent axis settings.
+- `Simulate Trackpad (Beta)` mode with gesture phases and momentum decay.
 - Configurable extra mouse buttons and Space switching.
 - Windows keyboard shortcuts for PC keyboards.
 - Full and partial per-application exclusions for scrolling, mouse buttons, and keyboard mappings.
