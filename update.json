@@ -2,11 +2,11 @@
   "schema": 1,
   "channel": "beta",
   "tag_name": "beta",
-  "name": "LangRuEn 0.2.0 Beta",
-  "version": "0.2.0",
-  "build": "22",
-  "published_at": "2026-06-18T14:24:42Z",
+  "name": "LangRuEn 0.3.0 Beta",
+  "version": "0.3.0",
+  "build": "26",
+  "published_at": "2026-07-14T18:45:02Z",
   "download_url": "https://github.com/almaziphone/LangRuEnUpdates/releases/download/beta/LangRuEn-Beta.dmg",
   "release_url": "https://github.com/almaziphone/LangRuEnUpdates/releases/tag/beta",
-  "asset_size": 3216339
+  "asset_size": 3372543
 }

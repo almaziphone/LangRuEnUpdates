@@ -34,6 +34,17 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Дорогие друзья, прошу протестировать LangRuEn.
 
+### Что нового в 0.3.0 Beta (сборка 26)
+
+- Добавлена плавная прокрутка обычного колеса мыши по схеме Mos с синхронизацией по частоте экрана.
+- Плавная и обратная прокрутка настраиваются отдельно для вертикальной и горизонтальной осей.
+- Добавлен экспериментальный режим `Симулировать трекпад (бета)` с фазами жеста и инерцией.
+- Дополнительным кнопкам мыши можно назначить навигацию, средний клик, Mission Control, рабочий стол и переключение Spaces.
+- Добавлены привычные Windows-сочетания для PC-клавиатуры и три варианта ручного переключения RU/EN.
+- Исключения для приложений теперь могут отключать весь модуль либо отдельно прокрутку, кнопки мыши и клавиатуру.
+- Модуль обучения сохраняет контекст после ручного переключения раскладки и снова предлагает новые слова.
+- Настройки прокрутки упрощены: оставлены только понятные переключатели без технических ползунков.
+
 Это маленькая macOS-утилита в menu bar, которая помогает, когда вы набрали текст не в той раскладке. Например, написали русское слово на английской раскладке или наоборот — программа пытается аккуратно исправить это автоматически. Еще она умеет переключать раскладку в email, URL, login и технических полях.
 
 Для PC-клавиатур можно включить ручное переключение RU/EN в разделе `Настройки -> Клавиатура и мышь -> Клавиатура`. Доступны `Ctrl + Shift`, обычный `Alt + Shift` и `Alt + Shift (Mac-режим)` для клавиатур, где физический Alt определяется macOS как Command. Активным может быть только один вариант; по умолчанию все выключены.
@@ -155,6 +166,17 @@ Download the latest beta DMG:
 ### Tester Note
 
 This is a beta build for testing. The app is not signed with an Apple Developer ID yet, so macOS may warn that it cannot verify the developer.
+
+### What’s New in 0.3.0 Beta (Build 26)
+
+- Added Mos-style smooth scrolling for conventional mouse wheels, synchronized to the display refresh rate.
+- Smooth and reverse scrolling can be configured independently for vertical and horizontal axes.
+- Added an experimental `Simulate Trackpad (Beta)` mode with gesture phases and momentum.
+- Extra mouse buttons can trigger navigation, middle click, Mission Control, Show Desktop, and Space switching.
+- Added familiar Windows shortcuts for PC keyboards and three manual RU/EN switching modes.
+- Per-application exclusions can disable the entire module or only scrolling, mouse buttons, or keyboard mappings.
+- Learning context now survives manual layout switching, allowing new word suggestions to appear again.
+- Scrolling settings were simplified to clear switches without technical sliders.
 
 ### Installation
 
