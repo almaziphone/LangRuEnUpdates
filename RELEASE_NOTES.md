@@ -1,7 +1,11 @@
-# LangRuEn 0.3.0 Beta — сборка 28
+# LangRuEn 0.3.0 Beta — сборка 29
 
 ## Что нового
 
+- Добавлены профили сочетаний `Windows`, `Мой набор` и `Выкл.` с быстрым переключением в настройках.
+- Готовый Windows-набор теперь содержит 18 проверенных действий: редактирование, окна, переключение RU/EN, Spotlight, блокировка Mac и снимки экрана.
+- В персональном наборе можно записать физические клавиши любой клавиатуры, включая сочетания только из модификаторов.
+- Редактор персонального набора вынесен в отдельное окно и разделён на понятные группы; конфликтующие назначения устраняются автоматически.
 - Добавлена отдельная настройка снимков экрана для PC-клавиатур: `Alt + Shift + 3/4/5` преобразуется в системные сочетания macOS.
 - Поддержано копирование снимка в буфер обмена через дополнительный `Ctrl`.
 - Исправлено случайное удаление слов: теперь русские, английские слова и исключения удаляются только по крестику.
@@ -43,6 +47,10 @@ open /Applications/LangRuEn.app
 
 ## What’s New
 
+- Added `Windows`, `My Set`, and `Off` shortcut profiles with quick switching in Settings.
+- The Windows preset now includes 18 tested actions for editing, windows, RU/EN switching, Spotlight, Mac locking, and screenshots.
+- A custom set can learn the physical keys of any keyboard, including modifier-only shortcuts.
+- The custom-set editor is now a separate grouped window, and conflicting assignments are resolved automatically.
 - Added a separate PC-keyboard screenshot option: `Alt + Shift + 3/4/5` now triggers the matching macOS screenshot shortcut.
 - Holding `Ctrl` additionally copies supported screenshots to the clipboard.
 - Fixed accidental dictionary deletion: Russian words, English words, and exclusions are now removed only with the `x` button.

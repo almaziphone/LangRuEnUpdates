@@ -34,8 +34,12 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Дорогие друзья, прошу протестировать LangRuEn.
 
-### Что нового в 0.3.0 Beta (сборка 28)
+### Что нового в 0.3.0 Beta (сборка 29)
 
+- Добавлены профили сочетаний `Windows`, `Мой набор` и `Выкл.`.
+- Windows-профиль содержит 18 готовых действий для редактирования, окон, системы, RU/EN и снимков экрана.
+- Персональный набор записывает физические клавиши любой клавиатуры, включая сочетания только из модификаторов; конфликты назначений устраняются автоматически.
+- Настройка персонального набора вынесена в отдельное сгруппированное окно.
 - Добавлена отдельная настройка снимков экрана: `Alt + Shift + 3/4/5` на PC-клавиатуре вызывает системный снимок macOS; дополнительный `Ctrl` копирует поддерживаемые снимки в буфер.
 - Слова в русском и английском словарях, а также исключения теперь удаляются только по крестику — случайный клик по слову безопасен.
 - Добавлена плавная прокрутка обычного колеса мыши по схеме Mos с синхронизацией по частоте экрана.
@@ -49,7 +53,7 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Это маленькая macOS-утилита в menu bar, которая помогает, когда вы набрали текст не в той раскладке. Например, написали русское слово на английской раскладке или наоборот — программа пытается аккуратно исправить это автоматически. Еще она умеет переключать раскладку в email, URL, login и технических полях.
 
-Для PC-клавиатур можно включить ручное переключение RU/EN в разделе `Настройки -> Клавиатура и мышь -> Клавиатура`. Доступны `Ctrl + Shift`, обычный `Alt + Shift` и `Alt + Shift (Mac-режим)` для клавиатур, где физический Alt определяется macOS как Command. Активным может быть только один вариант; по умолчанию все выключены.
+Для PC-клавиатур в разделе `Настройки -> Клавиатура и мышь -> Клавиатура` можно выбрать готовый профиль `Windows`, записать собственный профиль `Мой набор` или отключить переназначение. Windows-профиль содержит 18 действий, а персональный редактор запоминает физические клавиши конкретной клавиатуры.
 
 Раздел `Клавиатура и мышь` также добавляет Windows-подобное направление и плавную прокрутку,
 переназначение дополнительных кнопок мыши, Windows-сочетания клавиш и полные или частичные
@@ -170,8 +174,12 @@ Download the latest beta DMG:
 
 This is a beta build for testing. The app is not signed with an Apple Developer ID yet, so macOS may warn that it cannot verify the developer.
 
-### What’s New in 0.3.0 Beta (Build 28)
+### What’s New in 0.3.0 Beta (Build 29)
 
+- Added `Windows`, `My Set`, and `Off` shortcut profiles.
+- The Windows profile includes 18 ready-to-use actions for editing, windows, system controls, RU/EN switching, and screenshots.
+- A custom set learns the physical keys of any keyboard, including modifier-only shortcuts, while preventing conflicting assignments.
+- Custom shortcut editing now lives in a separate grouped window.
 - Added a separate screenshot option: `Alt + Shift + 3/4/5` on a PC keyboard triggers macOS screenshots, with an additional `Ctrl` for clipboard variants.
 - Russian words, English words, and exclusions are now removed only with the `x` button, so clicking a word is safe.
 - Added Mos-style smooth scrolling for conventional mouse wheels, synchronized to the display refresh rate.
