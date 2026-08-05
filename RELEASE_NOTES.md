@@ -1,7 +1,10 @@
-# LangRuEn 0.3.0 Beta — сборка 26
+# LangRuEn 0.3.0 Beta — сборка 28
 
 ## Что нового
 
+- Добавлена отдельная настройка снимков экрана для PC-клавиатур: `Alt + Shift + 3/4/5` преобразуется в системные сочетания macOS.
+- Поддержано копирование снимка в буфер обмена через дополнительный `Ctrl`.
+- Исправлено случайное удаление слов: теперь русские, английские слова и исключения удаляются только по крестику.
 - Плавная прокрутка обычного колеса мыши теперь работает по схеме Mos и синхронизируется с частотой экрана.
 - Для вертикальной и горизонтальной осей можно отдельно включить плавную и обратную прокрутку.
 - Добавлен режим `Симулировать трекпад (бета)` с фазами жеста и инерционным затуханием.
@@ -40,6 +43,9 @@ open /Applications/LangRuEn.app
 
 ## What’s New
 
+- Added a separate PC-keyboard screenshot option: `Alt + Shift + 3/4/5` now triggers the matching macOS screenshot shortcut.
+- Holding `Ctrl` additionally copies supported screenshots to the clipboard.
+- Fixed accidental dictionary deletion: Russian words, English words, and exclusions are now removed only with the `x` button.
 - Mos-style smooth scrolling synchronized to the display refresh rate.
 - Independent smooth and reverse scrolling switches for vertical and horizontal axes.
 - Experimental `Simulate Trackpad (Beta)` mode with gesture phases and momentum.

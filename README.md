@@ -34,8 +34,10 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Дорогие друзья, прошу протестировать LangRuEn.
 
-### Что нового в 0.3.0 Beta (сборка 26)
+### Что нового в 0.3.0 Beta (сборка 28)
 
+- Добавлена отдельная настройка снимков экрана: `Alt + Shift + 3/4/5` на PC-клавиатуре вызывает системный снимок macOS; дополнительный `Ctrl` копирует поддерживаемые снимки в буфер.
+- Слова в русском и английском словарях, а также исключения теперь удаляются только по крестику — случайный клик по слову безопасен.
 - Добавлена плавная прокрутка обычного колеса мыши по схеме Mos с синхронизацией по частоте экрана.
 - Плавная и обратная прокрутка настраиваются отдельно для вертикальной и горизонтальной осей.
 - Добавлен экспериментальный режим `Симулировать трекпад (бета)` с фазами жеста и инерцией.
@@ -111,6 +113,7 @@ open /Applications/LangRuEn.app
 - Режим `Симулировать трекпад (бета)` с фазами жеста и инерционным затуханием.
 - Переназначение дополнительных кнопок мыши и переключение рабочих столов Spaces.
 - Windows-сочетания клавиш для PC-клавиатуры.
+- Отдельно отключаемые снимки экрана через `Alt + Shift + 3/4/5`.
 - Полные и частичные исключения по приложениям для прокрутки, мыши и клавиатуры.
 - Живая проверка событий ввода в настройках.
 - Публичный beta update-feed.
@@ -167,8 +170,10 @@ Download the latest beta DMG:
 
 This is a beta build for testing. The app is not signed with an Apple Developer ID yet, so macOS may warn that it cannot verify the developer.
 
-### What’s New in 0.3.0 Beta (Build 26)
+### What’s New in 0.3.0 Beta (Build 28)
 
+- Added a separate screenshot option: `Alt + Shift + 3/4/5` on a PC keyboard triggers macOS screenshots, with an additional `Ctrl` for clipboard variants.
+- Russian words, English words, and exclusions are now removed only with the `x` button, so clicking a word is safe.
 - Added Mos-style smooth scrolling for conventional mouse wheels, synchronized to the display refresh rate.
 - Smooth and reverse scrolling can be configured independently for vertical and horizontal axes.
 - Added an experimental `Simulate Trackpad (Beta)` mode with gesture phases and momentum.
@@ -213,6 +218,7 @@ Only do this if you downloaded the DMG from this repository.
 - `Simulate Trackpad (Beta)` mode with gesture phases and momentum decay.
 - Configurable extra mouse buttons and Space switching.
 - Windows keyboard shortcuts for PC keyboards.
+- Separately configurable screenshots through `Alt + Shift + 3/4/5`.
 - Full and partial per-application exclusions for scrolling, mouse buttons, and keyboard mappings.
 - Live input-event testing in Settings.
 - Public beta update feed.
