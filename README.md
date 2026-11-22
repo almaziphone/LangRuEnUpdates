@@ -34,7 +34,15 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Дорогие друзья, прошу протестировать LangRuEn.
 
-### Что нового в 0.3.0 Beta (сборка 29)
+### Что нового в 0.3.0 Beta (сборка 31)
+
+- Исправление слов перед знаками препинания и замена фраз сохраняют соседний текст и пробелы.
+- Esc отменяет исправление, пока курсор остаётся на месте. Клик, перемещение курсора, смена поля или приложения сбрасывают отмену.
+- Автопереключение на английский учитывает исключения приложений. Защищённые поля распознаются также по системному подтипу.
+- Проверка поля теперь запускается при смене фокуса, а значок раскладки обновляется при её смене. Меню больше не опрашивает автозапуск каждую секунду.
+- Для beta-сборок с подписью ad-hoc добавлен резервный автозапуск, если macOS отклоняет обычную регистрацию.
+
+### Предыдущая сборка (29)
 
 - Добавлены профили сочетаний `Windows`, `Мой набор` и `Выкл.`.
 - Windows-профиль содержит 18 готовых действий для редактирования, окон, системы, RU/EN и снимков экрана.
@@ -174,7 +182,15 @@ Download the latest beta DMG:
 
 This is a beta build for testing. The app is not signed with an Apple Developer ID yet, so macOS may warn that it cannot verify the developer.
 
-### What’s New in 0.3.0 Beta (Build 29)
+### What’s New in 0.3.0 Beta (Build 31)
+
+- Corrections before punctuation and multiword corrections preserve surrounding text and spacing.
+- Esc undoes a correction while the caret remains in place. Clicking, navigating, or switching fields or apps clears pending undo.
+- Automatic English switching respects per-app exclusions. Secure fields are also recognized by their system subrole.
+- Field checks now respond to focus changes, and the layout indicator responds to layout changes. The menu no longer checks login status every second.
+- Ad-hoc signed betas offer a fallback login item if macOS rejects standard registration.
+
+### Previous Build (29)
 
 - Added `Windows`, `My Set`, and `Off` shortcut profiles.
 - The Windows profile includes 18 ready-to-use actions for editing, windows, system controls, RU/EN switching, and screenshots.

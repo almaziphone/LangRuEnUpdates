@@ -1,6 +1,14 @@
-# LangRuEn 0.3.0 Beta — сборка 29
+# LangRuEn 0.3.0 Beta (сборка 31)
 
 ## Что нового
+
+- Исправление слов перед знаками препинания и замена фраз сохраняют соседний текст и пробелы.
+- Esc отменяет исправление, пока курсор остаётся на месте. Клик, перемещение курсора, смена поля или приложения сбрасывают отмену.
+- Автопереключение на английский учитывает исключения приложений. Защищённые поля распознаются также по системному подтипу.
+- Проверка поля теперь запускается при смене фокуса, а значок раскладки обновляется при её смене. Меню больше не опрашивает автозапуск каждую секунду.
+- Для beta-сборок с подписью ad-hoc добавлен резервный автозапуск, если macOS отклоняет обычную регистрацию.
+
+## В сборке 29
 
 - Добавлены профили сочетаний `Windows`, `Мой набор` и `Выкл.` с быстрым переключением в настройках.
 - Готовый Windows-набор теперь содержит 18 проверенных действий: редактирование, окна, переключение RU/EN, Spotlight, блокировка Mac и снимки экрана.
@@ -46,6 +54,14 @@ open /Applications/LangRuEn.app
 ---
 
 ## What’s New
+
+- Corrections before punctuation and multiword corrections preserve surrounding text and spacing.
+- Esc undoes a correction while the caret remains in place. Clicking, navigating, or switching fields or apps clears pending undo.
+- Automatic English switching respects per-app exclusions. Secure fields are also recognized by their system subrole.
+- Field checks now respond to focus changes, and the layout indicator responds to layout changes. The menu no longer checks login status every second.
+- Ad-hoc signed betas offer a fallback login item if macOS rejects standard registration.
+
+## In Build 29
 
 - Added `Windows`, `My Set`, and `Off` shortcut profiles with quick switching in Settings.
 - The Windows preset now includes 18 tested actions for editing, windows, RU/EN switching, Spotlight, Mac locking, and screenshots.
