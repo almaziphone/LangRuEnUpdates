@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "tag_name": "v0.3.0",
+  "name": "LangRuEn 0.3.0",
+  "version": "0.3.0",
+  "build": "32",
+  "published_at": "2026-11-22T22:14:45+05:00",
+  "download_url": "https://github.com/almaziphone/LangRuEnUpdates/releases/download/v0.3.0/LangRuEn.dmg",
+  "release_url": "https://github.com/almaziphone/LangRuEnUpdates/releases/tag/v0.3.0",
+  "asset_size": 3437733
+}

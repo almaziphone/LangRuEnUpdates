@@ -10,17 +10,15 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 ## Скачать
 
-Последняя beta-сборка DMG:
-
-[LangRuEn-Beta.dmg](https://github.com/almaziphone/LangRuEnUpdates/releases/download/beta/LangRuEn-Beta.dmg)
+[LangRuEn 0.3.0 для macOS](https://github.com/almaziphone/LangRuEnUpdates/releases/latest/download/LangRuEn.dmg) · [Тестовые сборки](https://github.com/almaziphone/LangRuEnUpdates/releases/tag/beta)
 
 > **Если macOS пишет, что DMG или приложение повреждено**
 >
-> Это beta-сборка без Apple notarization. Скачайте DMG из этого репозитория и выполните в Terminal:
+> Сборка не нотарифицирована Apple. Скачайте DMG из этого репозитория и выполните в Terminal:
 >
 > ```bash
-> xattr -dr com.apple.quarantine ~/Downloads/LangRuEn-Beta.dmg
-> open ~/Downloads/LangRuEn-Beta.dmg
+> xattr -dr com.apple.quarantine ~/Downloads/LangRuEn.dmg
+> open ~/Downloads/LangRuEn.dmg
 > ```
 >
 > Если `LangRuEn.app` уже скопирован в `/Applications`:
@@ -30,11 +28,7 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 > open /Applications/LangRuEn.app
 > ```
 
-## Для тестеров
-
-Дорогие друзья, прошу протестировать LangRuEn.
-
-### Что нового в 0.3.0 Beta (сборка 32)
+## Что нового в 0.3.0 (сборка 32)
 
 - Автозамена чаще сохраняет короткие слова, команды, имена и идентификаторы. Фразовое исправление учитывает исключения словаря.
 - Перед автозаменой и обработкой Esc LangRuEn сверяет фрагмент перед курсором, если редактор предоставляет его через универсальный доступ. При несовпадении или выделенном тексте удаление пропускается.
@@ -76,7 +70,7 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 Опция `Симулировать трекпад (бета)` включает непрерывный жест macOS с фазами движения, инерцией и
 мягким завершением. Параметры скорости и плавности скрыты и используют проверенные значения Mos.
 
-Важно: сейчас это beta-версия для теста. Приложение пока не подписано Apple Developer ID, поэтому macOS может предупреждать, что программа скачана из интернета или не может проверить разработчика. Это ожидаемо для текущей тестовой сборки.
+Приложение подписано ad-hoc без Apple Developer ID и нотарификации. macOS может предупреждать, что программа скачана из интернета или не может проверить разработчика.
 
 ## Установка
 
@@ -90,7 +84,7 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 ## Если macOS ругается
 
-Так как сборка пока неподписанная, macOS может показать предупреждение.
+Из-за отсутствия нотарификации macOS может показать предупреждение.
 
 Попробуйте сначала обычный способ:
 
@@ -107,7 +101,7 @@ xattr -dr com.apple.quarantine /Applications/LangRuEn.app
 open /Applications/LangRuEn.app
 ```
 
-Используйте эту команду только если скачали `LangRuEn-Beta.dmg` отсюда, из этого репозитория.
+Используйте эту команду только если скачали DMG из этого репозитория.
 
 После первого запуска macOS попросит разрешения:
 
@@ -133,13 +127,11 @@ open /Applications/LangRuEn.app
 - Отдельно отключаемые снимки экрана через `Alt + Shift + 3/4/5`.
 - Полные и частичные исключения по приложениям для прокрутки, мыши и клавиатуры.
 - Живая проверка событий ввода в настройках.
-- Публичный beta update-feed.
+- Отдельные каналы стабильных и тестовых обновлений.
 
 ## Обновления
 
-LangRuEn проверяет beta-обновления через публичный feed:
-
-[update.json](https://github.com/almaziphone/LangRuEnUpdates/releases/download/beta/update.json)
+[Стабильный канал](https://github.com/almaziphone/LangRuEnUpdates/releases/latest/download/update.json) · [Beta-канал](https://github.com/almaziphone/LangRuEnUpdates/releases/download/beta/update.json)
 
 Автор: [almazbek@me.com](mailto:almazbek@me.com)
 
@@ -163,17 +155,15 @@ momentum and a smooth ending. Speed and smoothing internals are hidden and use M
 
 ### Download
 
-Download the latest beta DMG:
-
-[LangRuEn-Beta.dmg](https://github.com/almaziphone/LangRuEnUpdates/releases/download/beta/LangRuEn-Beta.dmg)
+[LangRuEn 0.3.0 for macOS](https://github.com/almaziphone/LangRuEnUpdates/releases/latest/download/LangRuEn.dmg) · [Beta builds](https://github.com/almaziphone/LangRuEnUpdates/releases/tag/beta)
 
 > **If macOS says the DMG or app is damaged**
 >
-> This beta build is not Apple-notarized yet. Download the DMG from this repository and run:
+> This build has no Apple notarization. Download the DMG from this repository and run:
 >
 > ```bash
-> xattr -dr com.apple.quarantine ~/Downloads/LangRuEn-Beta.dmg
-> open ~/Downloads/LangRuEn-Beta.dmg
+> xattr -dr com.apple.quarantine ~/Downloads/LangRuEn.dmg
+> open ~/Downloads/LangRuEn.dmg
 > ```
 >
 > If `LangRuEn.app` is already copied to `/Applications`:
@@ -183,11 +173,7 @@ Download the latest beta DMG:
 > open /Applications/LangRuEn.app
 > ```
 
-### Tester Note
-
-This is a beta build for testing. The app is not signed with an Apple Developer ID yet, so macOS may warn that it cannot verify the developer.
-
-### What’s New in 0.3.0 Beta (Build 32)
+### What’s New in 0.3.0 (Build 32)
 
 - Short words, commands, names, and identifiers are less likely to be replaced. Phrase corrections respect dictionary exceptions.
 - Before an automatic correction or Esc, LangRuEn verifies the text before the caret where Accessibility provides it. A mismatch or active selection prevents deletion.
@@ -255,4 +241,4 @@ Only do this if you downloaded the DMG from this repository.
 - Separately configurable screenshots through `Alt + Shift + 3/4/5`.
 - Full and partial per-application exclusions for scrolling, mouse buttons, and keyboard mappings.
 - Live input-event testing in Settings.
-- Public beta update feed.
+- Separate stable and beta update channels.
