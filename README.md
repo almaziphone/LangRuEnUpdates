@@ -34,7 +34,12 @@ LangRuEn — macOS-утилита в menu bar для автоматическо�
 
 Дорогие друзья, прошу протестировать LangRuEn.
 
-### Что нового в 0.3.0 Beta (сборка 31)
+### Что нового в 0.3.0 Beta (сборка 32)
+
+- Автозамена чаще сохраняет короткие слова, команды, имена и идентификаторы. Фразовое исправление учитывает исключения словаря.
+- Перед автозаменой и обработкой Esc LangRuEn сверяет фрагмент перед курсором, если редактор предоставляет его через универсальный доступ. При несовпадении или выделенном тексте удаление пропускается.
+
+### В сборке 31
 
 - Исправление слов перед знаками препинания и замена фраз сохраняют соседний текст и пробелы.
 - Esc отменяет исправление, пока курсор остаётся на месте. Клик, перемещение курсора, смена поля или приложения сбрасывают отмену.
@@ -182,7 +187,12 @@ Download the latest beta DMG:
 
 This is a beta build for testing. The app is not signed with an Apple Developer ID yet, so macOS may warn that it cannot verify the developer.
 
-### What’s New in 0.3.0 Beta (Build 31)
+### What’s New in 0.3.0 Beta (Build 32)
+
+- Short words, commands, names, and identifiers are less likely to be replaced. Phrase corrections respect dictionary exceptions.
+- Before an automatic correction or Esc, LangRuEn verifies the text before the caret where Accessibility provides it. A mismatch or active selection prevents deletion.
+
+### In Build 31
 
 - Corrections before punctuation and multiword corrections preserve surrounding text and spacing.
 - Esc undoes a correction while the caret remains in place. Clicking, navigating, or switching fields or apps clears pending undo.

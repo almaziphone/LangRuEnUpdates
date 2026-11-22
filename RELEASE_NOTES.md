@@ -1,6 +1,11 @@
-# LangRuEn 0.3.0 Beta (сборка 31)
+# LangRuEn 0.3.0 Beta (сборка 32)
 
 ## Что нового
+
+- Автозамена чаще сохраняет короткие слова, команды, имена и идентификаторы. Фразовое исправление учитывает исключения словаря.
+- Перед автозаменой и обработкой Esc LangRuEn сверяет фрагмент перед курсором, если редактор предоставляет его через универсальный доступ. При несовпадении или выделенном тексте удаление пропускается.
+
+## В сборке 31
 
 - Исправление слов перед знаками препинания и замена фраз сохраняют соседний текст и пробелы.
 - Esc отменяет исправление, пока курсор остаётся на месте. Клик, перемещение курсора, смена поля или приложения сбрасывают отмену.
@@ -54,6 +59,11 @@ open /Applications/LangRuEn.app
 ---
 
 ## What’s New
+
+- Short words, commands, names, and identifiers are less likely to be replaced. Phrase corrections respect dictionary exceptions.
+- Before an automatic correction or Esc, LangRuEn verifies the text before the caret where Accessibility provides it. A mismatch or active selection prevents deletion.
+
+## In Build 31
 
 - Corrections before punctuation and multiword corrections preserve surrounding text and spacing.
 - Esc undoes a correction while the caret remains in place. Clicking, navigating, or switching fields or apps clears pending undo.
